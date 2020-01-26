@@ -23,7 +23,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'wzi2*!r=$s0*r9+-3t=m+ts$g!ye3yn0547gukme^3kv&*cbli'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
+# False
 
 ALLOWED_HOSTS = ['*']
 # 'kitecrm.herokuapp.com', '127.0.0.1:8000', 'localhost',
